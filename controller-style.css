@@ -1,0 +1,13 @@
+/* Example CSS to change controller color to bright orange */
+
+/* Base color for the controller */
+.controller {
+    fill: #FF7F00;
+}
+
+/* For different parts of the controller if they have specific classes */
+.button, .dpad, .analog-stick, .trigger {
+    fill: #FF7F00;
+}
+
+/* If you need to override any other specific elements, you can add them here */
